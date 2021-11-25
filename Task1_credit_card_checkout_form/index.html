@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="payment">
+        <div class="payment-logo">
+          <p>P</p>
+        </div>
+        <h2>Payment Gayteway</h2>
+        <div class="form">
+         <div class="container">
+            <img
+              class="img-responsive"
+              src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Mastercard-Curved.png"
+            />
+            <img
+              class="img-responsive"
+              src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Discover-Curved.png"
+            />
+            <img
+              class="img-responsive"
+              src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Paypal-Curved.png"
+            />
+            <img
+              class="img-responsive"
+              src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/American-Express-Curved.png"
+              />
+          </div>
+          <div class="card space icon-relative">
+            <label class="label">Card holder:</label>
+            <input
+              type="text"
+              class="input"
+              name="card_holder"
+              placeholder="Enter Card holder Name"
+            />
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="card space icon-relative">
+            <label class="label">Card number:</label>
+            <input
+              type="text"
+              class="input"
+              name="card_number"
+              placeholder="Enter Card Number"
+              data-mask="0000 0000 0000 0000"
+            />
+            <i class="fas fa-credit-card"></i>
+          </div>
+          <div class="card-grp space icon-relative">
+            <div class="card-item icon-relative">
+              <label class="label">Expiry date:</label>
+              <input
+                type="text"
+                class="input"
+                name="expiry_date"
+                placeholder="00 / 00"
+                data-mask="00 / 00"
+              />
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <div class="card-item icon-relative">
+              <label class="label">CVV:</label>
+              <input type="text" class="input" name="cvc" placeholder="000" data-mask="000"/>
+              <i class="fas fa-lock"></i>
+            </div>
+          </div>
+          <div class="btn">Pay</div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+   </body>
+</html>
