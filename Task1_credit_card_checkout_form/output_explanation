@@ -1,0 +1,6 @@
+
+Before sharing source code, let’s talk about it. First I have created the card’s layout using HTML, there are lots of div created for creating the whole layout. There is logo of that card, I have created the form using HTML <form> property and placed the kinds of input like text input, select input, number input, etc.
+
+Now using CSS I have placed all the elements on the center, as you can see in the preview. There I have used gradient in background, card, and in submit button. There is a lock icon on the submit button, for that I have used an external icon library. If you see the card there is purple blurry image in the background of the card, I have linked an SVG image in the background.
+
+With CSS I have done many more things like all kind of basic and advance things.
